@@ -1,0 +1,40 @@
+html.body,*{
+font-size: 10px;
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+body{
+    background-color: #1d232a;
+}
+div {
+    height: 55rem;
+    width: 30rem;
+    background-color: #fff;
+    margin: 0.5rem;
+    /* Margin is space between elemnts*/
+    padding: 1rem;
+    /*Padding is space between element and margin*/
+}
+
+.card{
+    background-color: #191e24;
+    height: 55rem;
+    width: 30rem;
+    margin: 0.5rem;
+    /* Margin is space between elemnts*/
+    padding: 1rem;
+    /*Padding is space between element and margin*/
+}
+
+#test{
+    background-color:#00ff00;
+}
+
+.card-title{
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin:0;
+    text-align: center;
+}
