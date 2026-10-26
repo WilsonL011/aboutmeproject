@@ -1,0 +1,27 @@
+html.body,*{
+font-size: 20px;
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+font-family:'Times New Roman', Times, serif
+}
+
+
+
+
+.mainheader{
+    background-color: #5b7ec9;
+    height: 15rem;
+    width: 10rem;
+    margin: 0.5rem;
+    font-size: 45px;
+    /* Margin is space between elemnts*/
+    padding: 1rem;
+    /*Padding is space between element and margin*/
+    font-family:'Times New Roman', Times, serif
+} 
+
+
+.background{
+    background: linear-gradient(#000000,rgb(2, 2, 119),rgb(68, 139, 187));
+}
