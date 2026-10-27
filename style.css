@@ -6,7 +6,7 @@ padding: 0;
 }
 
 body{
-    background-color: #1d232a;
+    background-color: hsl(0, 0%, 0%);
 }
 div {
     height: 55rem;
@@ -19,13 +19,15 @@ div {
 }
 
 .card{
-    background-color: #191e24;
+    background-color: #e9ecf0;
     height: 55rem;
     width: 30rem;
     margin: 0.5rem;
     /* Margin is space between elemnts*/
     padding: 1rem;
     /*Padding is space between element and margin*/
+    border-radius: 0.8rem;
+    align-content: center;
 }
 
 #test{
@@ -37,4 +39,29 @@ div {
     font-weight: 600;
     margin:0;
     text-align: center;
+}
+
+.img{
+ width: 100%;
+ height: 50%;
+ object-fit: cover;}
+
+ .card-price{
+    margin: 0;
+ }
+
+ .card-btn{
+    height: 4rem;
+    padding: 0 1.6rem;
+    color:#edf0ff;
+    background-color: #5250e0;
+    border-radius: 0.4rem;
+    font-size: 1.4rem;
+    font-weight: 600px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.card-btn:hover{
+    background-color: #7573ff;
 }
