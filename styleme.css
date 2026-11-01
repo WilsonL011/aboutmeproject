@@ -83,7 +83,7 @@ font-family:'Times New Roman', Times, serif
     /*Padding is space between element and margin*/
     justify-content: center;
     align-items: center;
-    gap: 6rem;
+    gap: 2rem;
 }
 .Bottom_Card{
     display: flex;
@@ -97,7 +97,7 @@ font-family:'Times New Roman', Times, serif
     /*Padding is space between element and margin*/
     justify-content: center;
     align-items: center;
-    gap: 6rem;
+    gap: 2rem;
 }
 
 
