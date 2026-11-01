@@ -1,5 +1,5 @@
 html.body,*{
-font-size: 40px;
+font-size: 16px;
 box-sizing: border-box;
 margin: 0;
 padding: 0;
@@ -30,25 +30,31 @@ font-family:'Times New Roman', Times, serif
 }
 .hero{
     display:flex;
+    margin: auto;
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: linear-gradient(rgba(8,84,130,0.8), rgba(4,70,115,0.8)) url(Imgsrc/Voyager.jpg);
+    background-image: linear-gradient(#000000cc, rgba(106, 187, 241, 0.8)), url(Imgsrc/VoyagerInSpaceeeeee.png);
     background-size: cover;
     background-position: left;
     background-attachment: fixed;
-    height: 100vh;
+    height: 95vh;
 }
 
 .hero-content{ 
-    width: 90rem;
+    width: 60rem;
     padding: 2rem;
-
 }
 .hero h1{
-    font-size: 7rem;
+    font-size: 5rem;
     margin-bottom: 2rem;
     text-shadow: 0 2px 8px rgba(0,0,0,0.4);
+
+}
+.hero h2{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    text-shadow: 0 2px 5px rgba(0,0,0,0.4);
 }
 .hero p{
     font-size: 2.4rem;
@@ -66,33 +72,36 @@ font-family:'Times New Roman', Times, serif
 
 
 .Games_Card{
+    display: flex;
     background-color: #DC6C47;
-    height: 5rem;
-    width: 75rem;
-    margin: 15rem;
-    font-size: 15px;
-    /* Margin is space between elemnts*/
-    padding: 1rem; 
+    width: 100%;
+    max-width: 35rem; 
+    /*  Please dont be too big :sob: */
+    min-height: 25rem;
+    margin: auto;
+    padding: 1.5rem;
     /*Padding is space between element and margin*/
     justify-content: center;
     align-items: center;
-    font-family:'Times New Roman', Times, serif
+    gap: 6rem;
 }
-
-
 .Bottom_Card{
+    display: flex;
     background-color: #DC6C47;
-    height: 5rem;
-    width: 75rem;
-    margin: 15rem;
-    font-size: 15px;
-    /* Margin is space between elemnts*/
-    padding: 1rem;
+    width: 100%;
+    max-width: 35rem; 
+    /*  Please dont be too big :sob: */
+    min-height: 25rem;
+    margin: auto;
+    padding: 1.5rem;
     /*Padding is space between element and margin*/
     justify-content: center;
     align-items: center;
-    font-family:'Times New Roman', Times, serif
+    gap: 6rem;
 }
+
+
+
 
 .img{
  width: 100%;
