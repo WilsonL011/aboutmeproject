@@ -65,7 +65,22 @@ font-family:'Times New Roman', Times, serif
 }
 
 
-.worstlist{
+.Games_Card{
+    background-color: #DC6C47;
+    height: 5rem;
+    width: 75rem;
+    margin: 15rem;
+    font-size: 15px;
+    /* Margin is space between elemnts*/
+    padding: 1rem; 
+    /*Padding is space between element and margin*/
+    justify-content: center;
+    align-items: center;
+    font-family:'Times New Roman', Times, serif
+}
+
+
+.Bottom_Card{
     background-color: #DC6C47;
     height: 5rem;
     width: 75rem;
@@ -74,9 +89,10 @@ font-family:'Times New Roman', Times, serif
     /* Margin is space between elemnts*/
     padding: 1rem;
     /*Padding is space between element and margin*/
+    justify-content: center;
+    align-items: center;
     font-family:'Times New Roman', Times, serif
 }
-
 
 .img{
  width: 100%;
