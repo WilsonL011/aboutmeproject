@@ -41,8 +41,9 @@ font-family: 'IBM Plex Sans', sans-serif;
     height: 95vh;
 }
 
-.hero-content{ 
+.hero_content{ 
     width: 60rem;
+    padding: 2rem;
     padding: 2rem;
 }
 .hero h1{
@@ -71,6 +72,17 @@ font-family: 'IBM Plex Sans', sans-serif;
 }
 
 
+/* I forgot to add the card container. Its copypasted basically from everything else here.*/
+.card-container {
+    display: flex;
+    justify-content: flex-start; 
+    flex-wrap: wrap;
+    gap: 2rem;
+    max-width: 75rem;
+    margin: 3rem 0;
+    padding: 0;
+}
+
 .Games_Card{
     display: flex;
     background-color: #DC6C47;
@@ -81,26 +93,40 @@ font-family: 'IBM Plex Sans', sans-serif;
     margin: auto;
     padding: 1.5rem;
     /*Padding is space between element and margin*/
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start; /* Aligns them to the start of the container. I think.*/
     gap: 2rem;
+    flex-wrap: wrap; 
+    flex-direction: column;
+    margin-bottom: 2rem; /* Gives the Cards a bit of space */
 }
 .Bottom_Card{
     display: flex;
     background-color: #DC6C47;
     width: 100%;
     max-width: 35rem; 
-    /*  Please dont be too big :sob: */
     min-height: 25rem;
     margin: auto;
     padding: 1.5rem;
     /*Padding is space between element and margin*/
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start; /* Aligns them to the start of the container. I think.*/
     gap: 2rem;
+    flex-wrap: wrap; 
+    flex-direction: column; 
+    margin-bottom: 2rem; /* Gives the Cards a bit of space */
 }
 
 
+.Bottom_Card h1{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.Games_Card h1{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
 
 
 .img{
