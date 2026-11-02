@@ -41,7 +41,7 @@ font-family: 'IBM Plex Sans', sans-serif;
     height: 95vh;
 }
 
-.hero_content{ 
+.hero__content{ 
     width: 60rem;
     padding: 2rem;
     padding: 2rem;
@@ -83,6 +83,12 @@ font-family: 'IBM Plex Sans', sans-serif;
     padding: 0;
 }
 
+/* .card{
+    background-color: green;
+} Placeholder for now */
+
+
+/* max and min height just let the boxes grow and shrink depending on the stuff inside */
 .Games_Card{
     display: flex;
     background-color: #DC6C47;
@@ -90,7 +96,7 @@ font-family: 'IBM Plex Sans', sans-serif;
     max-width: 35rem; 
     /*  Please dont be too big :sob: */
     min-height: 25rem;
-    margin: auto;
+    margin: 0;
     padding: 1.5rem;
     /*Padding is space between element and margin*/
     justify-content: flex-start;
@@ -99,6 +105,7 @@ font-family: 'IBM Plex Sans', sans-serif;
     flex-wrap: wrap; 
     flex-direction: column;
     margin-bottom: 2rem; /* Gives the Cards a bit of space */
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.5); /* The first number is x, second y, third blur.*/
 }
 .Bottom_Card{
     display: flex;
@@ -106,15 +113,15 @@ font-family: 'IBM Plex Sans', sans-serif;
     width: 100%;
     max-width: 35rem; 
     min-height: 25rem;
-    margin: auto;
+    margin: 0;
     padding: 1.5rem;
-    /*Padding is space between element and margin*/
     justify-content: flex-start;
-    align-items: flex-start; /* Aligns them to the start of the container. I think.*/
+    align-items: flex-start; 
     gap: 2rem;
     flex-wrap: wrap; 
     flex-direction: column; 
-    margin-bottom: 2rem; /* Gives the Cards a bit of space */
+    margin-bottom: 2rem; 
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.5);
 }
 
 
@@ -136,16 +143,13 @@ font-family: 'IBM Plex Sans', sans-serif;
 }
 
 
-.card{
-    background-color: green;
-}
 
 
 .card-btn{
     height: 4rem;
     padding: 0 1.6rem;
-    color:#edf0ff;
-    background-color: #5250e0;
+    color: #ffffff; 
+    background-color: #B84A2B; 
     border-radius: 0.4rem;
     font-size: 1.4rem;
     font-weight: 600px;
@@ -154,5 +158,13 @@ font-family: 'IBM Plex Sans', sans-serif;
 }
 
 .card-btn:hover{
-    background-color: #7573ff;
+    background-color:#5f2d1f; 
 }
+
+
+
+
+
+/* Helpful stuff: 
+https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/max-width
+https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/min-width */
